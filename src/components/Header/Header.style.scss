@@ -1,0 +1,42 @@
+.Header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 5rem;
+	width: 100%;
+	padding: 0 5%;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	&--Logo {
+		color: #fff;
+		span {
+			color: rgb(255, 0, 76);
+		}
+	}
+
+	&--Nav {
+		color: #fff;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		width: 10rem;
+
+		h3 {
+			color: rgb(255, 0, 76);
+		}
+
+		&--Icon {
+			height: 32px;
+			width: 32px;
+			background-color: #fff;
+			border-radius: 50%;
+			padding: 4px;
+		}
+	}
+}

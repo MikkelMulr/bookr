@@ -1,0 +1,24 @@
+.DashEvents {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+
+	&--Events {
+		list-style: none;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+
+		&--Event {
+			width: 45%;
+			margin: 0 0.5rem;
+		}
+	}
+}

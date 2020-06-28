@@ -1,0 +1,82 @@
+.DashBoard {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(180deg, #22223396 0%, rgba(0, 0, 0, 0.6) 100%);
+	border-radius: 14px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 4rem;
+
+	&--Nav {
+		height: 100%;
+		width: 20%;
+
+		&_User {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			&--Image {
+				height: 20%;
+				width: 100%;
+
+				.User--Profile {
+					height: 10rem;
+					width: 10rem;
+					background: linear-gradient(0deg, #ffffff00 10%, rgb(255, 0, 76) 100%);
+					border-radius: 14px;
+				}
+
+				h3 {
+					color: #fff;
+				}
+
+				h4 {
+					color: rgb(255, 0, 76);
+				}
+			}
+		}
+
+		&--Menu {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: space-between;
+			padding: 4rem 0;
+			height: 80%;
+
+			ul {
+				list-style: none;
+
+				li {
+					color: #fff;
+					font-size: 2rem;
+					margin: 2rem 0;
+					cursor: pointer;
+					transition: all 0.25s linear;
+
+					&:hover {
+						color: rgb(255, 0, 76);
+					}
+				}
+			}
+
+			p {
+				color: rgb(255, 0, 76);
+				font-size: 1.2rem;
+			}
+		}
+	}
+
+	&--Main {
+		height: 100%;
+		width: 80%;
+	}
+}
+
+.errormsg {
+	color: rgb(255, 0, 76);
+}
